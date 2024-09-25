@@ -1,0 +1,293 @@
+
+@media (min-width: 1600px) {
+    .cabecalho {
+        padding: 30px;
+    }
+
+    .conteudo {
+        padding: 8rem; 
+    }
+}
+
+@media(min-width: 1127px ){
+    .cards li{
+        flex-wrap: wrap;
+        flex:0 170px;
+    }
+}
+
+@media(max-width: 1040px){
+    .cards.li{
+        flex-wrap: wrap;
+        flex: 0 170px;
+    }
+}
+
+@media(min-width: 933px){
+    .cards li{
+        flex-wrap: wrap;
+        flex: 0 170px;
+    }
+}
+
+@media(min-width:655px){
+    .cards li{
+        flex-wrap: wrap;
+        flex: 0 170px;
+    }
+}
+
+@media(min-width:901px){
+    .insta, .paragrafo6{
+        text-align: center;
+    }
+
+    .titulo_servicos{
+        text-align: center;
+    }
+
+    .titulo{
+        text-align: center;
+        font-size: 6rem;
+    }
+}
+
+
+@media (max-width: 900px) {
+    
+    .cabecalho{
+        flex-direction:column ;
+        align-items: center;
+    
+    }
+
+    .cabecalho a{
+        padding-top: 10px;
+    }
+
+    .titulo{
+        font-size: 4rem;
+    }
+
+    .paragrafo4{
+        font-size: 2rem;
+    }
+
+    .neuro{
+        font-size: 4rem;
+    }
+
+    
+    
+    .titulo_servicos {
+        font-size: 3rem; 
+    }
+
+
+    .paragrafo5 {
+        font-size: 1.5rem; 
+        max-width: 90%; 
+        margin: 0 auto; 
+        padding: 50px 10px; 
+    }
+
+    .titulo_clientes {
+        font-size: 24px; 
+    }
+
+    .paragrafo6 {
+        font-size: 16px; 
+
+    .titulo {
+        font-size: 26px; 
+    }
+
+    .paragrafo2 {
+        font-size: 16px; 
+        margin-bottom: 20px; 
+    }
+
+    .paragrafo3 {
+        font-size: 16px; 
+        margin-bottom: 20px; 
+    }
+
+    .paragrafo4 {
+        font-size: 16px; 
+        margin-bottom: 20px; 
+    }
+
+    .insta {
+        font-size: 22px; 
+    }
+
+    .paragrafo7 {
+        font-size: 16px; 
+    }
+
+    .paragrafo1 {
+        font-size: 24px; 
+    }
+
+    .neuro {
+        font-size: 22px; 
+    }
+
+    .titulo_contato {
+        font-size: 22px; 
+    }
+
+  
+}
+}
+
+
+@media (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column; 
+        align-items: center; }
+
+    .conteudo {
+        flex-direction: column; 
+        align-items: center; 
+        padding: 2rem; 
+    }
+
+    .neuro{
+        padding-left: 2rem;
+    }
+
+    .titulo{
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .paragrafo2, .paragrafo3{
+        padding-top: 3rem;
+        text-align: center;
+        padding-right: 0;
+    }
+    
+    .titulo{
+        font-size: 3rem;
+    }
+
+    .neuro{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .insta, .paragrafo6{
+        text-align: center;
+    }
+
+
+
+    .paragrafo4{
+        font-size: 2rem ;
+    }
+
+    .titulo_servicos{
+        font-size: 3rem;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    
+    .logo_clientes{
+        
+        margin: 0 10px; 
+    }
+
+    .paragrafo5 {
+        font-size: 1.5rem;
+        padding-top: 1.5rem;
+    }
+
+    .titulo-contato, .paragrafo7{
+        padding-left: 3rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .cabecalho a {
+        font-size: 16px; 
+    }
+
+    .titulo_servicos,
+    .titulo_clientes,
+    .titulo
+    {
+        font-size: 3rem;
+        text-align: center;
+
+    }
+
+    .titulo-contato{
+        text-align: center;
+    }
+
+    .insta{
+        padding-left: 2rem;
+    }
+
+    .paragrafo1,
+    .paragrafo2,
+    .paragrafo3,
+    .paragrafo4,
+    .paragrafo5,
+    .paragrafo6,
+    .paragrafo7 {
+        font-size: 20px; 
+        max-width: 95%; 
+        margin: 0 auto; 
+        padding: 0 15px; 
+        margin-bottom: 20px; 
+        text-align: center;
+    }
+
+    .conteudo {
+        padding: 1rem; 
+    }
+
+    .neuro {
+        font-size: 18px; 
+    }
+
+    .logo_clientes{
+
+        margin-left: 1rem;
+        width: 80%;
+    }
+
+    .paragrafo7{
+        padding-left: 1.5rem;
+    }
+}
+
+@media(min-width: 461px){
+    .cards li{
+        
+        flex: 0 250px;
+        margin-left: 50px;
+    }
+}
+
+@media(max-width:400px){
+    .logo_clientes img {
+        width: 80%;
+        height: auto;
+    }
+
+    .titulo-contato, .paragrafo7{
+     padding-right: 2rem;
+    }
+
+    .btn-contato a{
+       display: flex;
+    }
+}
+
+
+

@@ -1,0 +1,291 @@
+*{
+margin: 0;
+padding: 0;
+font-family: open-sans, sans-serif;
+font-weight: 300;
+
+
+}
+
+main{
+    background-image: url(./Imagens/bg\ do\ site.png);
+   background-color: black;
+   background-size: cover;
+    
+    color: #ffffff;
+}
+
+
+
+.cabecalho{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+.cabecalho img{
+    height: 70px;
+    width: 150px;
+    
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+  
+}
+
+.cabecalho a:hover{
+    bottom: -5px;
+    box-shadow: 0px 4px 4px -3px rgb(255, 255, 255);
+    transition: width 0.3s ease-in-out;
+}
+
+#home{
+    position: relative;
+    text-align: center;
+    background-color: black;
+}
+
+
+
+.cerebro{
+ width: 100%;
+ height: auto;
+ filter: brightness(0.2);
+ padding: 0;
+ }
+
+.paragrafo1{
+   color: #ffffff;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 30px;
+}
+
+.conteudo{
+    display: flex;
+    padding-top: 30rem;
+    padding-bottom: 20rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.paragrafo2{
+    padding-right: 9rem;
+}
+
+.conteudo_abaixo{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25rem;
+    
+}
+
+.titulo{
+    font-size: 8rem;
+}
+
+.paragrafo4{
+    font-size: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 25rem;
+    padding-left:10rem;
+    padding-right: 10rem;
+}
+
+#neuromarketing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25rem;
+}
+
+.neuro{
+    font-size: 70px;
+}
+
+.paragrafo5{
+    font-size: 30px;
+    padding: 0 10rem;
+    padding-top: 10rem;
+}
+
+#servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo_servicos{
+    font-size: 5rem;
+    align-self: center;
+   
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-top: 15rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+}
+
+.cards li{
+    flex: 1;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.154); 
+    border: 1px solid rgba(255, 255, 255, 0.673); 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin: 10px; 
+    backdrop-filter: blur(5px); 
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.644);
+    transition: transform 0.5s; 
+    width: 100%;
+    
+
+    
+}
+
+li:hover {
+    transform: scale(1.05); 
+}
+
+#portifolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20rem ;
+    padding-bottom: 15rem;
+}
+
+.titulo_insta{
+    font-size: 50px;
+    padding-bottom: 10rem;
+}
+
+.instagram a{
+    text-decoration: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.154); 
+    border: 1px solid rgba(255, 255, 255, 0.673); 
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(5px); 
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.644);
+    transition: transform 0.5s; 
+    
+
+
+}
+
+.instagram:hover{
+    transform: scale(1.10);
+}
+
+#clientes{
+    text-align: center;
+   
+}
+
+.titulo_clientes{
+    font-size: 4rem;
+    padding-bottom: 8rem;
+}
+
+
+
+.logo_clientes{
+    margin-left: 3rem;
+}
+
+
+
+.logo_clientes img{
+    margin: 20px;
+    height: 100px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.154); 
+    border: 1px solid rgba(255, 255, 255, 0.673); 
+    border-radius: 10px;
+    padding: 30px;
+    backdrop-filter: blur(5px); 
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.644);
+    transition: transform 0.5s; 
+    flex-wrap: wrap;
+    flex: 1;
+    
+}
+
+.logo_clientes img:hover{
+    transform: scale(1.10);
+}
+
+#contato{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+}
+
+.titulo-contato{
+    font-size: 3rem;
+    padding-top: 120px;
+}
+
+.paragrafo7{
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 214px;
+}
+
+.btn-contato a{
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.154); 
+    border: 1px solid rgba(255, 255, 255, 0.673); 
+    border-radius: 10px;
+    padding: 30px;
+    backdrop-filter: blur(5px); 
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.644);
+    transition: transform 0.5s; 
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 10px;
+    margin-left: 24px;
+    margin-bottom: 48px;
+    
+}
+
+.btn-contato a:hover {
+    transform: scale(1.10);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
