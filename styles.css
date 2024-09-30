@@ -2,7 +2,8 @@
 margin: 0;
 padding: 0;
 font-family: open-sans, sans-serif;
-font-weight: 300;
+scroll-behavior: smooth;
+transition: 2s;
 
 
 }
@@ -272,6 +273,18 @@ li:hover {
 
 .btn-contato a:hover {
     transform: scale(1.10);
+}
+
+.paragrafo8{
+    padding-bottom: 5rem;
+}
+
+.paragrafo9{
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    padding-bottom: 1rem;
+    
 }
 
 

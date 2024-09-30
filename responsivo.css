@@ -287,6 +287,14 @@
     .btn-contato a{
        display: flex;
     }
+
+    .insta{
+        padding-right: 20px;
+    }
+
+    .titulo_clientes{
+        padding: 0 10px;
+    }
 }
 
 
